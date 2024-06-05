@@ -240,12 +240,13 @@ main{
 
     font-size:18px;
     font-weight: 500;
+    transition: background 0.3s;
+
 }
 
 .alternativas button:hover {
     background: var(--purple-hover);
     cursor: pointer;
-    transition: background 0.3s;
 }
 
 
