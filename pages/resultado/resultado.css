@@ -38,8 +38,23 @@ body.escuro {
     --shadow: 0px 16px 40px 0px rgba(49, 62, 81, 0.14);
 }
 
+body {
+    height: 100svh;
+    background: var(--bg-mobile) var(--bg-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 header {
     display: flex;
     justify-content: space-between;
     padding: 16px 24px;
+}
+
+body {
+    height: 100svh;
+    background: var(--bg-mobile) var(--bg-color);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
