@@ -65,6 +65,24 @@ header{
     border-radius: 5px;
 }
 
+.assunto_icone.html {
+    background: var(--bg-html);
+}
+
+.assunto_icone.css {
+    background: var(--bg-css);
+}
+
+.assunto_icone.javascript {
+    background: var(--bg-javacript);
+}
+
+.assunto_icone.acessibilidade {
+    background: var(--bg-acessibilidade);
+}
+
+
+
 .assunto_icone img{
     width: 100%;
 }
@@ -270,11 +288,14 @@ main{
         margin-inline: auto;
     }
 
+    
+
     .assunto_icone{
         width: 56px;
         height: 56px;
         padding: 8px;
     }
+
 
     .assunto h1{
         font-size: 28px;
